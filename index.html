@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Practice</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em;
+             */
+            grid-gap: 1em;
+        }
+        
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+        }
+        
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta exercitationem illo quaerat at vero architecto mollitia iusto fugit, debitis hic dolorem labore qui earum ex sequi. Amet maiores possimus, suscipit quasi excepturi explicabo earum quisquam
+            quaerat autem officiis saepe reiciendis minima aut tempore deleniti eos nostrum. Voluptate quasi magni reprehenderit temporibus pariatur eum odio officiis dicta possimus quos. Corrupti harum fugiat eos rerum ullam explicabo fugit officiis
+            quis nesciunt! Odit cumque dignissimos sapiente eveniet error porro reprehenderit maxime! Beatae, tenetur!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime libero porro magnam exercitationem quos velit, sed iusto magni molestias a, eligendi reiciendis atque consectetur laudantium amet dolores natus ea nemo.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta exercitationem illo quaerat at vero architecto mollitia iusto fugit, debitis hic dolorem labore qui earum ex sequi. Amet maiores possimus, suscipit quasi excepturi explicabo earum quisquam
+            quaerat autem officiis saepe reiciendis minima aut tempore deleniti eos nostrum. Voluptate quasi magni reprehenderit temporibus pariatur eum odio officiis dicta possimus quos. Corrupti harum fugiat eos rerum ullam explicabo fugit officiis
+            quis nesciunt! Odit cumque dignissimos sapiente eveniet error porro reprehenderit maxime! Beatae, tenetur!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime libero porro magnam exercitationem quos velit, sed iusto magni molestias a, eligendi reiciendis atque consectetur laudantium amet dolores natus ea nemo.
+        </div>
+    </div>
+</body>
+
+</html>
